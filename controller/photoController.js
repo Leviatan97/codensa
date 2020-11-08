@@ -34,6 +34,7 @@ class photoController {
         res.status(200).json({
             response: "saludos desde el servidor",
             name: usIm,
+            data: req.body,
             file
         })
 
